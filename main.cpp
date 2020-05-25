@@ -98,7 +98,22 @@ Thing 3) sound film production
  */
 
 /*
-Thing 4) pc
+Thing 4) Microphones
+5 properties:
+    1) condeser
+    2) lavalier
+    3) dynamic
+    4) ribbon
+    5) shotgun
+3 things it can do:
+    1) record 
+    2) stereo techniques
+    3) feedback
+ */
+ 
+
+/*
+Thing 10) pc
 5 properties:
     1) cpu 
     2) hard drive type {hdd, ssd}
@@ -109,21 +124,6 @@ Thing 4) pc
     1) make some programs
     2) surf to the internet
     3) make human lives easier
- */
- 
-
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
 
