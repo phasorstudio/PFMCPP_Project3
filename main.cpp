@@ -103,7 +103,7 @@ Thing 4) Microphone
     1) type of microphone
     2) type of pollar patern 
     3) frequency response
-    4) diaphragm type
+    4) diaphragm type {large, small}
     5) Capsule type {ribbon, condensor, dynamic}
 3 things it can do:
     1) record 
