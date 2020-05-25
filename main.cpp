@@ -98,13 +98,13 @@ Thing 3) sound film production
  */
 
 /*
-Thing 4) Microphones
+Thing 4) Microphone
 5 properties:
-    1) condeser
-    2) lavalier
-    3) dynamic
-    4) ribbon
-    5) shotgun
+    1) type of microphone
+    2) type of pollar patern 
+    3) frequency response
+    4) diaphragm type
+    5) Capsule type {ribbon, condensor, dynamic}
 3 things it can do:
     1) record 
     2) stereo techniques
