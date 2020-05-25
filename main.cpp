@@ -53,59 +53,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) electric Guitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of strings
+    2) number of pickups
+    3) number of switch choices {bridge, mid, neck}
+    4) number of outputs
+    5) number of keys
 3 things it can do:
-    1)
-    2)
-    3)
+    1) play through a guitar amp
+    2) play rythm and solo
+    3) make some cool fx
  */
 
 /*
-Thing 2)
+Thing 2) orange 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) color
+    2) size {small, big}
+    3) sense {hard, soft}
+    4) country
+    5) cost
 3 things it can do:
-    1)
-    2)
-    3)
+    1) drink as juice
+    2) eat it
+    3) fills your blood loss
  */
 
 /*
-Thing 3)
+Thing 3) sound film production
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of mics
+    2) number of boom poles
+    3) number of mic pre_amps
+    4) number of headphones
+    5) number of hardware devices
 3 things it can do:
-    1)
-    2)
-    3)
+    1) record tracks
+    2) mix
+    3) master
  */
 
 /*
-Thing 4)
+Thing 4) pc
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) cpu 
+    2) hard drive type {hdd, ssd}
+    3) motherboard
+    4) rom type {cd, dvd, blue_ray}
+    5) ram
 3 things it can do:
-    1)
-    2)
-    3)
+    1) make some programs
+    2) surf to the internet
+    3) make human lives easier
  */
 
 
