@@ -1,5 +1,5 @@
 /*
-Project 3 - Part 1a / 5
+Project 3 - Part 1d / 5
 Video:  Chapter 2 Part 5
 User-Defined Types
 
@@ -20,67 +20,196 @@ You are going to write 10 UDTs in project3.
     Part 1e: you will convert those 10 plain-english UDTs into code that runs.
 ************************
 
-1) Look at the picture of the car interior (Part1a pic.jpg).  
-    Fill in the blanks below which break this car interior down into sub-objects.
+    The goal of this step is to get you to think about breaking down an object into smaller and smaller objects, 
+    until the smallest object is made of up only C++ primitives. 
 
-    Several sub-objects are listed below that make up this car's interior.
-        you're going to name several things that you'll find on each subobject
-        you're going to name several things that each subobject can do.
-        If you've seen "Family Feud", we are going to do what they do in that show
+    Continuing the previous example:  Cell Phone
 
-        A few blanks are filled in for you already.
+    A Cell Phone is made up of the following 5 properties/sub-objects and 3 actions:
+        Display
+        Memory
+        CPU
+        Radio
+        Applications
+    3 actions:
+        make a call
+        send a text
+        run an application.
 
-Main Object: Car Interior
-Sub Object 1: Steering Wheel
-    Name 4 things you'll find on the:    Steering Wheel
-        1) paddle shifters
-        2) 'cruise control' controls
-        3) 
-        4) 
-    Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
-        
-Sub Object 2: Instrument Cluster
-    Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
-    Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+    These 5 properties can be broken down into their own sub-objects and properties. 
+
+    If we break down the first property 'Display' into its 5 properties we get:
+        brightness
+        amount of power consumed.
+        pixels
+        width in cm
+        height in cm
+
+    the Display's brightness can be represented with a Primitive, such as a double. 
+
+    The amount of power consumed can also be represented with a Primitive, such as a float or integer (i.e. 250mWa)
     
-Sub Object 3: Environment Controls
-    Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+    The 'pixels' property must be represented with an array of Pixel instances, as the screen has more than 1 row of pixels.
+        Arrays have not been discussed and can't be used in this project.
+        Instead, we can use an Integer primitive to store the Number of Pixels:
 
-Sub Object 4: Infotainment System
-    Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+    Display:
+        Number of Pixels
+        Amount of Power consumed (milliwatt-hours)
+        Brightness
+        width in cm
+        height in cm
+************************
 
-Sub Object 5: Seat 
-    Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
-    Name 2 things you can do with the:   Seat
-        1)
-        2)
+1) Fill in #5 - #9 with plain-english UDTs for the 5 properties you created for UDT #10
+    example: 
+        If #10's first property was 'Engine', then your `Thing 5)` will be `Engine` and 
+        you will need to provide 5 properties and 3 member functions of that Engine object in plain English
 */
+
+
+
+/*
+Thing 1) electric Guitar
+5 properties:
+    1) number of strings
+    2) number of pickups
+    3) number of switch choices {bridge, mid, neck}
+    4) number of outputs
+    5) number of keys
+3 things it can do:
+    1) play through a guitar amp
+    2) play rythm and solo
+    3) make some cool fx
+ */
+
+/*
+Thing 2) orange 
+5 properties:
+    1) color
+    2) size {small, big}
+    3) sense {hard, soft}
+    4) country
+    5) cost
+3 things it can do:
+    1) drink as juice
+    2) eat it
+    3) fills your blood loss
+ */
+
+/*
+Thing 3) sound film production
+5 properties:
+    1) number of mics
+    2) number of boom poles
+    3) number of mic pre_amps
+    4) number of headphones
+    5) number of hardware devices
+3 things it can do:
+    1) record tracks
+    2) mix
+    3) master
+ */
+
+/*
+Thing 4) Microphone
+5 properties:
+    1) type of microphone
+    2) type of pollar patern 
+    3) frequency response
+    4) diaphragm type {large, small}
+    5) Capsule type {ribbon, condensor, dynamic}
+3 things it can do:
+    1) record 
+    2) stereo techniques
+    3) feedback
+ */
+ 
+/*
+Thing 5) Synth
+5 properties:
+    1) number of presets
+    2) number of voices
+    3) number of knobs
+    4) number of oscs
+    5) number of keys
+3 things it can do:
+    1) make sounds
+    2) make fxs
+    3) make music
+ */
+
+/*
+Thing 6) Controller
+5 properties:
+    1) frequency of the CPU in `MHz`
+    2) number of bits of the CPU
+    3) number of PWM outputs
+    4) nominal power consumption in `W`
+    5) weight in `g`
+3 things it can do:
+    1) semi-automated flying
+    2) autonomous flying
+    3) return home for safety
+ */
+
+/*
+Thing 7) Live stage
+5 properties:
+    1) lenght
+    2) width
+    3) equipment{guitar amps, bass amps, drums}
+    4) heavy-duty
+    5) weight 
+3 things it can do:
+    1) use for live performance
+    2) stand a few people
+    3) be portable
+ */
+
+/*
+Thing 8) Camera
+5 properties:
+    1) horizontal resolution in nr. of pixels 
+    2) vertical resolution in nr. of pixels
+    3) viewing angle
+    4) nominal power consumption in `W`
+    5) weight in `g`
+3 things it can do:
+    1) record as film
+    2) provide live view images
+    3) make photos
+ */
+
+/*
+Thing 9) Camera gimbal
+5 properties:
+    1) number of axis with image stabilization
+    2) accuracy of stabilization in degree
+    3) maximum weight of the camera which it can hold
+    4) nominal power consumption in `W`
+    5) weight in `g`
+3 things it can do:
+    1) do compensation of aircraft tilt an ditch
+    2) do FPV mode operation
+    3) do Follow Mode operation
+ */
+
+/*
+Thing 10) pc
+5 properties:
+    1) cpu 
+    2) hard drive type {hdd, ssd}
+    3) motherboard
+    4) rom type {cd, dvd, blue_ray}
+    5) ram
+3 things it can do:
+    1) make some programs
+    2) surf to the internet
+    3) make human lives easier
+ */
+
+
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
