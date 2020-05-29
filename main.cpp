@@ -126,73 +126,73 @@ Thing 4) Microphone
  */
  
 /*
-Thing 5)
+Thing 5) Synth
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of presets
+    2) number of voices
+    3) number of knobs
+    4) number of oscs
+    5) number of keys
 3 things it can do:
-    1)
-    2)
-    3)
+    1) make sounds
+    2) make fxs
+    3) make music
  */
 
 /*
-Thing 6)
+Thing 6) Controller
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) frequency of the CPU in `MHz`
+    2) number of bits of the CPU
+    3) number of PWM outputs
+    4) nominal power consumption in `W`
+    5) weight in `g`
 3 things it can do:
-    1)
-    2)
-    3)
+    1) semi-automated flying
+    2) autonomous flying
+    3) return home for safety
  */
 
 /*
-Thing 7)
+Thing 7) Live stage
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) lenght
+    2) width
+    3) equipment{guitar amps, bass amps, drums}
+    4) heavy-duty
+    5) weight 
 3 things it can do:
-    1)
-    2)
-    3)
+    1) use for live performance
+    2) stand a few people
+    3) be portable
  */
 
 /*
-Thing 8)
+Thing 8) Camera
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) horizontal resolution in nr. of pixels 
+    2) vertical resolution in nr. of pixels
+    3) viewing angle
+    4) nominal power consumption in `W`
+    5) weight in `g`
 3 things it can do:
-    1)
-    2)
-    3)
+    1) record as film
+    2) provide live view images
+    3) make photos
  */
 
 /*
-Thing 9)
+Thing 9) Camera gimbal
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of axis with image stabilization
+    2) accuracy of stabilization in degree
+    3) maximum weight of the camera which it can hold
+    4) nominal power consumption in `W`
+    5) weight in `g`
 3 things it can do:
-    1)
-    2)
-    3)
+    1) do compensation of aircraft tilt an ditch
+    2) do FPV mode operation
+    3) do Follow Mode operation
  */
 
 /*
